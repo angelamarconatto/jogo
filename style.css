@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-destaque: "Rubik Wet Paint", system-ui;
+    --fonte-texto: "Playfair Display", serif;
+    --misty-rose: #ffe5ecff;
+    --pink: #ffc2d1ff;
+    --cherry-blossom-pink: #ffb3c6ff;
+    --bakermiller-pink: #ff8fabff;
+    --rose-pompadour: #fb6f92ff;
+}
+
+body {
+    background-color: var(--rose-pompadour);
+    font-family: var(--fonte-texto);
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--rose-pompadour);
+    padding: 1em;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: #ff8fabff;
+}
+
+footer a {
+    text-align: none;
+    color: var(--misty-rose)
+}
