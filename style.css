@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-:root {
+:root{
     --fonte-destaque: "Rubik Wet Paint", system-ui;
     --fonte-texto: "Playfair Display", serif;
     --misty-rose: rgb(240, 56, 105);
@@ -22,7 +22,7 @@ body {
     color: var(--preto);
 }
 
-#caixa {
+#caixa{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,7 +30,7 @@ body {
     gap: 2rem;
 }
 
-.cartao {
+.cartao{
     margin: 1rem;
     background-color: var(--mimi-pink);
     height: 20rem;
@@ -38,7 +38,7 @@ body {
     flex-basis: calc(33% - 6rem);
 }
 
-.cartao__conteudo {
+.cartao__conteudo{
     height: 100%;
     text-align: center;
     display: flex;
@@ -47,12 +47,12 @@ body {
     transition: transform 300ms ease-in-out;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao:hover .cartao__conteudo{
     transform: rotateY(180deg);
 
 }
 
-.cartao__conteudo h3 {
+.cartao__conteudo h3{
     border: 2px, solid var(--preto);
     color: var(--azul-escuro);
     font-family: var(--fonte-titulo);
@@ -66,7 +66,7 @@ body {
 
 }
 
-.cartao__conteudo__pergunta {
+.cartao__conteudo__pergunta{
     font-size: 1.5rem;
     margin: 2.5rem;
     font-family: var(--fonte-secundaria);
@@ -74,24 +74,24 @@ body {
 }
 
 .cartao__conteudo__pergunta,
-.cartao__conteudo__resposta {
+.cartao__conteudo__resposta{
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-.cartao__conteudo p {
+.cartao__conteudo p{
     margin: 1rem;
     padding: 1.3rem;
 }
 
-.cartao__conteudo__resposta {
+.cartao__conteudo__resposta{
     font-size: 1.5rem;
     transform: rotateY(180deg);
 }
 
-footer {
+footer{
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -100,11 +100,11 @@ footer {
     padding: 1em;
 }
 
-footer p {
+footer p{
     font-size: 1.2rem;
 }
 
-footer a {
+footer a{
     color: var(--azul-escuro);
     text-decoration: none;
 }
